@@ -31,11 +31,13 @@ Project ini dibuat sebagai bagian dari pembelajaran di **Sanbercode**, dengan fo
 ## 🚀 Cara Menjalankan
 
 1. Clone repository:
+
    ```bash
    git clone https://github.com/Dikifebrian24/project_akhir.git
    cd project_akhir
 
    ```
+
 2. Install dependencies:
 
 ```bash
@@ -54,16 +56,13 @@ npx cypress open
 npx cypress run
 ```
 
-✅ Test yang Tersedia
+---
 
-API Testing
+## ✅ Test yang Tersedia
 
-Login API (positive & negative case)
-
-UI Testing (OrangeHRM)
-
-Login (positive & negative case)
-
-Forgot Password
-
-Dashboard & Directory
+- API Testing
+- Login API (positive & negative case)
+- UI Testing (OrangeHRM)
+- Login (positive & negative case)
+- Forgot Password
+- Dashboard & Directory
