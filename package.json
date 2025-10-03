@@ -1,0 +1,26 @@
+{
+  "name": "project_akhir",
+  "version": "1.0.0",
+  "description": "Automation Testing OrangeHRM with Cypress + Cucumber",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "orangehrm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "cypress": "^15.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions"
+  }
+}
