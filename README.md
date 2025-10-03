@@ -19,10 +19,6 @@ Project ini dibuat sebagai bagian dari pembelajaran di **Sanbercode**, dengan fo
 
 ---
 
-## 🗂️ Struktur Project
-
----
-
 ## ⚙️ Teknologi yang Digunakan
 
 - [Cypress](https://www.cypress.io/) – Framework automation testing
@@ -38,19 +34,25 @@ Project ini dibuat sebagai bagian dari pembelajaran di **Sanbercode**, dengan fo
    ```bash
    git clone https://github.com/Dikifebrian24/project_akhir.git
    cd project_akhir
+
    ```
+2. Install dependencies:
 
-Install dependencies:
-
+```bash
 npm install
+```
 
-Jalankan test di mode interactive:
+3.Jalankan test di mode interactive:
 
+```bash
 npx cypress open
+```
 
-Jalankan test di mode headless:
+4. Jalankan test di mode headless:
 
+```bash
 npx cypress run
+```
 
 ✅ Test yang Tersedia
 
